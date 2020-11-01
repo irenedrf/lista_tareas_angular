@@ -1,0 +1,18 @@
+<div class="container">
+    <ul class="list-group" *ngFor="let tarea of listaTareasHechas">
+        <li class="list-group-item d-block list-group-item-success">
+            <p>TAREA: {{tarea.nombretarea}}.</p>
+            <p>URGENCIA: {{tarea.urgenciatarea}}.</p>
+            <p>¿TERMINADA?: {{tarea.terminadatarea}}</p>
+        </li>
+
+    </ul>
+    <ul class="list-group" *ngFor="let tarea of listaTareasPendientes">
+        <li class="list-group-item d-block list-group-item-danger">
+            <p>TAREA: {{tarea.nombretarea}}.</p>
+            <p>URGENCIA: {{tarea.urgenciatarea}}.</p>
+            <p>¿TERMINADA?: {{tarea.terminadatarea}}</p>
+        </li>
+
+    </ul>
+</div>

@@ -1,0 +1,34 @@
+
+.container{
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid grey;
+    background-color: rgb(185, 190, 185);
+}
+
+.row{
+    padding: 50px 0;
+}
+
+
+ul{
+    background-color: whitesmoke;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+ul li{
+    padding: 7px 30px;
+    margin: 7px 0;
+}
+
+.activa{
+    background-color: rgb(185, 190, 185);
+    transition: 0.5s;
+}
+
+.displaynone{
+    display: none;
+}
